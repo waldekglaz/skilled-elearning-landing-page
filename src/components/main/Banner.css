@@ -1,0 +1,21 @@
+.banner {
+  color: #fff;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 24px 29px 38px;
+  margin-bottom: 44px;
+}
+@media (min-width: 768px) {
+  .banner {
+    flex-basis: 49%;
+    margin-bottom: 56px;
+  }
+}
+@media (min-width: 1024px) {
+  .banner {
+    flex-basis: 31%;
+    padding-top: 64px;
+  }
+}
